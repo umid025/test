@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, .a, .label {
+    display: inline-block;
+}
+.hammasi {
+    width: 80%;
+    margin: 30px auto;
+    padding: 50px 20px ;
+}
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 25px;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.h1 {
+    color: white;
+    font-size: 55px;
+}
+.h2, .h3 {
+    color: white;
+    font-size: 20px;
+}
+.hhh2, .hh2 {
+    color: white;
+    font-size: 30px;
+}
+.icon1 {
+    color: white;
+    font-size: 55px;
+}
+.icon {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.p1 {
+    color: white;
+    font-size: 80px;
+}
+.pp {
+    color: white;
+    font-size: 30px;
+}
+.pp1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+.divv {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.divv1 {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.div2 {
+    /* width: 100%; */
+    margin-left: px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0;
+}
+.sarlavha {
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.a1:hover {
+ color: black;
+}
+.adiv{
+    width:80%;
+    margin-left: 20px;
+}
+.a1 {
+    font-weight: bold;
+    text-decoration: none;
+    color: silver;
+    font-size: 25px;
+    margin-right: 50px;
+}
+.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    overflow: hidden;
+}
+.chap {
+    width: 7%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: aqua;
+}
+.ong {
+    width: 85%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+.orqa {
+    width: 22%;
+    flex-shrink: 0;
+   
+}
+.name {
+    text-align: center;
+}
+.orqarasm {
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.play {
+    opacity: 0;
+    transition: 0.1s  opacity linear;
+   
+}
+.play:hover {
+    opacity: 1;
+}
+.orqa1 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(video-local-programming.jpg);
+}
+.orqa2 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(video-family-guy.jpg);
+}
+.orqa3 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(video-simpsons.jpg);
+    transform: scale(1.2);
+}
+.orqa4 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(video-futurama.jpg);
+}
+.orqa5 {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(video-american-dad.jpg);
+}
+.div5 {
+    margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-bottom: 40px;
+}
+.chiziq {
+    width: 40%;
+    height: 8px;
+    background-color:silver;
+}
+.chiziq2 {
+    width:20%;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.oxiri1 {
+    width: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+}
+.oxiri2 {
+    width: 40%;
+
+}
+.oxiri3 {
+    width: 48%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items:flex-end;
+    justify-content:space-between;
+}
+.music {
+    width: 27%;
+    flex-shrink: 0;
+}
+.nota {
+    color: aqua;
+}
+.ikon {
+    opacity: 0;
+}
+.ikon:hover {
+    opacity: 1;
+    transition: 0.1s opacity linear;
+}
+.orqafon {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.fon1 {
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(music-with-you.jpg);
+    transform: scale(1.2);
+}
+.fon2 {
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(music-butter.jpg);
+}
+.fon3 {
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(music-back-together.jpg);
+}
+.fon4 {
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(music-unwind.jpg);
+}
+.raqam {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.box {
+    height: 4px;
+    flex-grow: 1;
+    background-color: blue;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin: 0 5px;
+}
+.box3 {
+     height: 100%;
+}
+.box1 {
+    width: 35%;
+    background-color: black;
+}
+.box2 {
+    width: 65%;
+    background-color: gray;
+}
+.boxx {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.pic {
+    width: 26%;
+}
+.nomi {
+    width: 69%;
+}
